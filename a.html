@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Facebook Registration</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f2f5; margin: 0; padding: 0;">
+
+  <div style="width: 400px; margin: 50px auto; padding: 20px 30px; background-color: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    
+    <h1 style="color: #1877f2; margin-bottom: 5px;">Sign Up</h1>
+    <p style="margin-top: 0; font-size: 14px;">It’s quick and easy.</p>
+    
+    <form>
+
+      <div style="display: flex; gap: 10px;">
+        <input type="text" placeholder="First name" required 
+               style="width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #ccc; border-radius: 6px;">
+        <input type="text" placeholder="Surname" required 
+               style="width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #ccc; border-radius: 6px;">
+      </div>
+
+      <input type="email" placeholder="Mobile number or email address" required 
+             style="width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #ccc; border-radius: 6px;">
+
+      <input type="password" placeholder="New password" required 
+             style="width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #ccc; border-radius: 6px;">
+
+      <label style="display: block; margin-top: 10px;">Date of birth</label>
+      <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+        <select style="flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 6px;">
+          <option>Day</option>
+          <option>1</option>
+          <option>2</option>
+        </select>
+        <select style="flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 6px;">
+          <option>Month</option>
+          <option>Jan</option>
+          <option>Feb</option>
+        </select>
+        <select style="flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 6px;">
+          <option>Year</option>
+          <option>2000</option>
+          <option>2001</option>
+        </select>
+      </div>
+
+      <label style="display: block; margin-top: 10px;">Gender</label>
+      <div style="display: flex; gap: 15px; margin-bottom: 15px;">
+        <label><input type="radio" name="gender"> Female</label>
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Custom</label>
+      </div>
+
+      <button type="submit" 
+              style="background-color: #42b72a; color: white; border: none; padding: 12px; width: 100%; border-radius: 6px; font-size: 16px; cursor: pointer;">
+        Sign Up
+      </button>
+    </form>
+  </div>
+
+</body>
+</html>
